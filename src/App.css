@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    background:#012;
+    color:#fff;
+    padding:20px;
+  }
+  label{
+    display:block;
+    text-transform:uppercase;
+    font-size:.8rem;
+    line-height:.5rem;
+    padding-left:1px;
+    color: rgba(255,255,255,.8);
+  }
+  input[type="text"]{
+    background:transparent;
+    border:0;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size:1.4rem;
+  }
+  .summary{
+    background:#158;
+    padding: 10px;
+    border-radius: 10px;
+    display:flex;
+    justify-content:space-between;
+    font-size: 1.7rem;
+    max-width: 320px;
+  }
+  .summary label{
+    line-height:.8rem;
+  }
+  .split-control{
+    display:flex;
+    align-items:center;
+    justify-items: center;
+  }
+  .split-control span{
+    display:block;
+    padding: 0 3px;
+  }
+  .split button{
+    border-radius: 99999999px;
+    border:0;
+    width:20px;
+    height:20px;
+    background: #38d;
+    color:#fff;
+    cursor:pointer;
+  }
+  .result{
+    text-align: right;
+  }
+  main{
+    width: 200px;
+    margin: 20px auto;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-bottom: 200px;
+  }
+
+  .info{
+    border-radius: 9999999px;
+    border: none;
+    height: 4px;
+    width: 4px;
+    cursor: pointer;
+    margin-left: 4px;
+    padding-bottom: 14px;
+  }
+
+  .ii{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
